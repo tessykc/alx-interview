@@ -6,9 +6,13 @@ Create a function def pascal_triangle(n): that returns a list of lists of intege
 
 
 Returns an empty list if n <= 0
+
+
 You can assume n will be always an integer
 #### cat 0-main.py
 #!/usr/bin/python3
+
+
 """
 0-main
 """
