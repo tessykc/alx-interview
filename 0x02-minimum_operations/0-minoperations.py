@@ -6,7 +6,6 @@ def minOperations(n):
     Calculates the fewest number of operations needed to result in exactly 
     'n' 'H' characters in the file.
     """
-    
     if n <= 1:
         return 0  # No operations needed if n is 1 or less
 
@@ -24,3 +23,10 @@ def minOperations(n):
         min_operations += 1  # Increment operation count for paste
 
     return min_operations
+
+# Implemented
+n = 9
+print("Min # of operations to reach {} char: {}".format(n, minOperations(n)))
+
+n = 12
+print("Min # of operations to reach {} char: {}".format(n, minOperations(n)))
