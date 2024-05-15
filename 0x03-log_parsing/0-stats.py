@@ -4,6 +4,7 @@
 from collections import defaultdict
 
 
+""" parse line """
 def parse_line(line):
   """Parses a log line and extracts relevant information.
 
@@ -29,6 +30,7 @@ valid,
     return None
 
 
+""" main """
 def main():
   """Reads standard input, computes metrics, and prints statistics."""
 
